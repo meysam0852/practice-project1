@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: "fontvazir";
   margin: 0;
   background: #0f172a;
   color: white;
@@ -45,12 +45,6 @@ box {
   background: #0f172a;
 }
 
-body {
-  background: #0f172a;
-  font-family: sans-serif;
-}
-
-
 .link-box {
   display: block;
   width: 300px;
@@ -78,3 +72,13 @@ body {
   text-align: center;
 }
 
+
+@font-face {
+  font-family: "fontvazir" ;
+  src: url(../font/Vazir-Bold-FD-WOL.ttf);
+}
+
+.font_other {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
